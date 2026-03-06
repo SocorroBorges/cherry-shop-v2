@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cherry Shop</title>
+</head>
+<body>
+
+    <h1>Cherry Shop 🍒</h1>
+
+    {% for product in products %}
+        <div>
+            <h2>{{ product.name }}</h2>
+            <p>{{ product.description }}</p>
+            <strong>R$ {{ product.price }}</strong>
+        </div>
+    {% endfor %}
+</body>
+</html>

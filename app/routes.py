@@ -1,7 +1,9 @@
 from flask import Blueprint, render_template
+from .models import Product
 
 main = Blueprint("main", __name__)
 
 @main.route("/")
 def home():
-    return "<h1>Cherry Shop v2 está viva</h1>"
+    products = Product.query.all()
+    return render_template("home.html", products=products)
