@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
     <title>Cherry Shop</title>
 </head>
 <body>
 
+<header class="header">
     <h1>Cherry Shop 🍒</h1>
+</header>
 
-    <a href="/add-product">Adicionar produto</a>
+<div class="container">
 
-    {% for product in products %}
-        <div>
-            <h2>{{ product.name }}</h2>
-            <p>{{ product.description }}</p>
-            <strong>R$ {{ product.price }}</strong>
-        </div>
-    {% endfor %}
+<a class="btn" href="/add-product">Adicionar produto</a>
+
+<div class="products">
+
+{% for product in products %}
+
+<div class="card">
+
+    <h2>{{ product.name }}</h2>
+
+    <p>{{ product.description }}</p>
+
+<div class="price">
+R$ {{ product.price }}
+</div>
+
+</div>
+
+{% endfor %}
+</div>
+</div>
+   
 </body>
 </html>
