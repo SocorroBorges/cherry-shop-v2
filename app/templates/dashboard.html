@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Shop Admin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="admin-layout">
+        <aside class="sidebar">
+            <!-- LOGO -->
+            <div class="sidebar__logo">
+                <img src="{{ url_for('static', filename='img/logo/cherry-logo.png') }}" alt="Cherry Shop">
+            </div>
+            <!-- MENU -->
+            <nav class="sidebar__nav">
+                <a href="#" class="sidebar__item sidebar__item--active">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                    Dashboard
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Produtos
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Pedidos
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Clientes
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Promoções
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Configurações
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Relatórios
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Mensagens
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Marketing
+                </a>
+                <a href="#" class="sidebar__item">
+                    <span class="sidebar__icon">
+                        <i class="fa-solid fa-box"></i>
+                    </span>
+                    Ajuda & Suporte
+                </a>
+            </nav>
+            <!-- FOOTER SIDEBAR -->
+            <div class="sidebar__footer">
+                <div class="sidebar__profile">
+                    <img src="{{ url_for('static', filename='img/users/admin-ana.png') }}" alt="Admin Ana">
+                    <span>Admin Ana</span>
+                </div>
+                <button class="sidebar__logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Sair
+                </button>
+            </div>
+        </aside>
+        <main class="dashboard-content"></main>
+    </div>
+</body>
+</html>
