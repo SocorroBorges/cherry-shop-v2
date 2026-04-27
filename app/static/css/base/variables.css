@@ -1,0 +1,40 @@
+:root {
+    /* CORES PRINCIPAIS */
+    --color-sidebar-bg: #fad2d0;
+    --color-hover-bg: #b1ddc2;
+    --color-active-bg: #f4a9ac;
+    --color-icon-cicle-active: #fef4e9;
+    --color-text-dark: #421c1d;
+    --color-painel-bg: #faf2e7;
+    /* TAMANHO FIXOS */
+    --layout-width: 1440px;
+    --content-width: 1278px;
+
+    --sidebar-width: 235px;
+
+    --menu-btn-width: 200px;
+    --menu-btn-height: 55px;
+
+    --menu-btn-active-width: 219px;
+
+    --icon-circle-size: 45px;
+
+    --profile-img-size: 50px;
+
+    --logout-btn-width: 198px
+    /* ESPAÇAMENTOS */
+    --menu-gap: 8px;
+    /* BORDER RADIUS */
+    --radius-full: 999px;
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 10px;
+    /* SOMBRAS */
+    --shadow-soft: 0 4px 10px rgba(0,0,0,0.08);
+    /* TRANSIÇÕES */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    /* TIPOGRAFIA */
+    --font-main: 'Poppins', sans-serif;
+}

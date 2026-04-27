@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/global.css');
+
+@import url('./layout/sidebar.css');
+@import url('./layout/dashboard.css');
+@import url('./layout/footer.css');

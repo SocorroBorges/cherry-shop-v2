@@ -1,0 +1,12 @@
+body {
+    font-family: var(--font-main);
+    background: var(--color-painel-bg);
+    color: var(--color-text-dark);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: var(--layout-width);
+    margin: 0 auto;
+}
