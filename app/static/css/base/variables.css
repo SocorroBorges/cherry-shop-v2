@@ -3,9 +3,8 @@
     --color-sidebar-bg: #fad2d0;
     --color-hover-bg: #b1ddc2;
     --color-active-bg: #f4a9ac;
-    --color-icon-cicle-active: #fef4e9;
     --color-text-dark: #421c1d;
-    --color-painel-bg: #faf2e7;
+    --color-panel-bg: #faf2e7;
     /* TAMANHO FIXOS */
     --layout-width: 1440px;
     --content-width: 1278px;
@@ -21,7 +20,7 @@
 
     --profile-img-size: 50px;
 
-    --logout-btn-width: 198px
+    --logout-btn-width: 198px;
     /* ESPAÇAMENTOS */
     --menu-gap: 8px;
     /* BORDER RADIUS */

@@ -1,9 +1,17 @@
 body {
     font-family: var(--font-main);
-    background: var(--color-painel-bg);
     color: var(--color-text-dark);
+
+    background-image: url('../../img/backgrounds/site-bg.png');
+    background-size: cover;
+    background-position: center;
+
     min-height: 100vh;
-    overflow: hidden;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    padding: 0 81px;
 }
 
 .container {
