@@ -83,7 +83,7 @@
 
     border-radius: 50%;
 
-    background: #e35456;
+    background: var(--red-cherry);
 
     color: #fff;
 
@@ -124,4 +124,112 @@
 
 .profile-dropdown i {
     font-size: 18px;
+}
+
+/* WELCOME BANNER */
+.welcome-banner {
+    width: 1035px;
+    height: 71px;
+
+    background: var(--color-sidebar-bg);
+
+    border-radius: 20px;
+
+    padding: 0 28px 0 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+
+    position: relative;
+
+    overflow: visible;
+}
+
+/* lEFT */
+.welcome-banner__left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.welcome-banner__left img {
+    width: 68px;
+
+    transform: rotate(-15deg);
+
+    margin-top: -5px;
+}
+
+.welcome-banner__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.welcome-banner__text span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.welcome-banner__text small {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* ACTIONS */
+.welcome-banner__actions {
+    display: flex;
+    gap: 14px;
+
+    margin-left: auto;
+    padding-left: 30px;
+}
+
+/* BOTÃO ADD */
+.btn-add-product {
+    width: 175px;
+    height: 48px;
+
+    border-radius: 999px;
+
+    background: var(--red-cherry);
+
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 15px;
+
+    transition: var(--transition-normal);
+}
+
+.btn-add-product:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-soft);
+}
+
+/* BOTÃO GERENCIAR */
+.btn-manage {
+    width: 110px;
+    height: 48px;
+
+    border-radius: 999px;
+
+    background: var(--color-hover-bg);
+
+    color: var(--color-text-dark);
+
+    font-weight: 600;
+    font-size: 15px;
+
+    transition: var(--transition-normal);
+}
+
+.btn-manage:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-soft);
 }
