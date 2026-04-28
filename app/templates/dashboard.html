@@ -90,7 +90,25 @@
                 </button>
             </div>
         </aside>
-        <main class="dashboard-content"></main>
+        <main class="dashboard-content">
+            <header class="dashboard-header">
+                <h1>Painel Administrativo</h1>
+                <div class="dashboard-header__actions">
+                    <button class="header-circle-btn">
+                        <i class="ph ph-magnifying-glass"></i>
+                    </button>
+                    <button class="header-circle-btn notification-btn">
+                        <i class="ph ph-bell"></i>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <button class="profile-dropdown">
+                        <img src="{{ url_for('static', filename='img/users/admin-maria.jpeg') }}" alt="Admin">
+                        <span>Admin Maria</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                </div>
+            </header>
+        </main>
     </div>
 </body>
 </html>

@@ -10,7 +10,8 @@
 
     margin: 0 auto;
 
-    background: var(--color-panel-bg);
+    background: rgba(250, 242, 231, 0.38);
+    backdrop-filter: blur(10px);
 
     overflow: hidden;
 
